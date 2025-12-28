@@ -11,17 +11,20 @@ export default function Home() {
 
     return (
         <div className="flex flex-col items-center min-h-screen pt-24 pb-12 px-[50pt] text-center">
-            <div className="w-full max-w-[1400px] flex flex-col items-center">
-                <h1 className="text-8xl font-bold tracking-widest mb-8 mt-12">RAPHAEL</h1>
+            <div className="w-full max-w-[1400px] flex flex-col items-center gap-y-20">
 
-                <div className="w-full h-px bg-white/20 my-8"></div>
+                {/* Title */}
+                <h1 className="text-8xl font-bold tracking-widest mt-12">RAPHAEL</h1>
 
-                <p className="text-xl mb-8 max-w-2xl leading-relaxed">
+                {/* Text */}
+                <p className="text-xl max-w-2xl leading-relaxed">
                     blahblahblahblahblahblahblah
                 </p>
 
-                <div className="w-full h-px bg-white/20 my-10"></div>
+                {/* Separator 2 */}
+                <hr className="w-full border-none h-[3px] bg-[var(--text-primary)] opacity-40" style={{ marginTop: "20pt", marginBottom: "20pt" }} />
 
+                {/* Cards Grid */}
                 <div className="flex flex-wrap justify-center gap-x-[50pt] gap-y-[75pt] w-full">
                     {cards.map((card) => (
                         <Link
