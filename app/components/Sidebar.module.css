@@ -113,7 +113,7 @@
 
 .navItem.active {
   background: var(--text-primary);
-  color: white;
+  color: var(--surface);
 }
 
 .icon {
