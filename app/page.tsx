@@ -22,7 +22,11 @@ export default function Home() {
                 </p>
 
                 {/* Separator 2 */}
-                <hr className="w-full border-none h-[3px] bg-[var(--text-primary)] opacity-40" style={{ marginTop: "20pt", marginBottom: "20pt" }} />
+                <hr className="w-full border-none h-[3px] bg-[var(--text-primary)] opacity-40 my-20" />
+
+
+                {/* Cards' Title */}
+                <div className="text-xl font-bold tracking-widest mt-12">a RAPHAEL</div>
 
                 {/* Cards Grid */}
                 <div className="flex flex-wrap justify-center gap-x-[50pt] gap-y-[75pt] w-full">
