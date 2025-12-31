@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   description: "Raphael's wiki",
 };
 
+import styles from "./layout.module.css";
+
+// ... imports
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -22,7 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Sidebar />
-        <main style={{ marginLeft: "var(--sidebar-width)" }}>
+        <main className={styles.container}>
           {children}
         </main>
       </body>
