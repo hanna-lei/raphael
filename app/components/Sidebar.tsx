@@ -35,7 +35,7 @@ export default function Sidebar() {
                     <span className={styles.hamburgerLine}></span>
                     <span className={styles.hamburgerLine}></span>
                 </button>
-                <h1 className={styles.mobileTitle}>Hyde SciOly Team</h1>
+                <h1 className={styles.mobileTitle}>Raphael Wiki</h1>
             </div>
 
             {/* Overlay */}
@@ -46,8 +46,8 @@ export default function Sidebar() {
             {/* Sidebar */}
             <aside className={`${styles.sidebar} ${isOpen ? styles.open : ""}`}>
                 <div className={styles.header}>
-                    <h1 className={styles.title}>Hyde</h1>
-                    <p className={styles.subtitle}>Science Olympiad</p>
+                    <h1 className={styles.title}>Raphael</h1>
+                    <p className={styles.subtitle}>Wiki</p>
                 </div>
 
                 <nav className={styles.nav}>
@@ -65,11 +65,7 @@ export default function Sidebar() {
                     ))}
                 </nav>
 
-                <div className={styles.footer}>
-                    <a href="mailto:hsoteams@gmail.com" className={styles.contact}>
-                        📧 hsoteams@gmail.com
-                    </a>
-                </div>
+
             </aside>
         </>
     );
