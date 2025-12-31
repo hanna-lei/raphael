@@ -13,9 +13,9 @@ export default function Sidebar() {
         { href: "/about", label: "Introduction", icon: "🏠" },
         { href: "/", label: "Home", icon: "📋" },
         { href: "/raphael", label: "Raphael", icon: "📚" },
-        { href: "/santa", label: "Santa", icon: "🎯" },
-        { href: "/rob", label: "Rob", icon: "🏆" },
-        { href: "/raphaelina", label: "Raphaelina", icon: "⭐" },
+        { href: "/rob", label: "Rob", icon: "🎯" },
+        { href: "/raphaelina", label: "Raphaelina", icon: "🏆" },
+        { href: "/santa", label: "Santa", icon: "⭐" },
     ];
 
     const handleLinkClick = () => {
